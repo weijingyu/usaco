@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 ### Who We Are
 
@@ -13,4 +13,4 @@ Specific goals of the USACO include:
 
 ### About Advanced Training
 
-This website includes training for students who typically have a year or two of programming experience and also have interest in 'algorithmic programming'. The techniques taught and drilled hereare _difficult_.
+This website includes training for students who typically have a year or two of programming experience and also have interest in 'algorithmic programming'. The techniques taught and drilled hereare **difficult**.
