@@ -1,4 +1,4 @@
-### ![Dr. Cow](http://train.usaco.org/usaco/cowhead2.gif) Submitting Solutions
+### ![Dr. Cow](/0.0/images/cowhead2.gif) Submitting Solutions
 
 The USACO Training Program features an automatic grading system for your homework problems. You submit your programs from the problem page itself; they are compiled and graded; the results are conveyed back to you -- all within a few seconds.
 
