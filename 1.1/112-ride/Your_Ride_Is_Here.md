@@ -13,13 +13,13 @@ Examples:
 |COMETQ<br>HVNGAT|   GO   |
 |ABSTAR<br>USACO |  STAY  |
 
-##### PROGRAM NAME: ride
+#### PROGRAM NAME: ride
 
 This means that you fill in your header with:<br>
 PROG: ride  
 **WARNING**: You must have 'ride' in this field or the wrong test data (or no test data) will be used.
 
-##### INPUT FORMAT
+#### INPUT FORMAT
 
 Line 1:	An upper case character string of length 1..6 that is the name of the comet.<br>
 Line 2:	An upper case character string of length 1..6 that is the name of the group.
@@ -28,20 +28,20 @@ Line 2:	An upper case character string of length 1..6 that is the name of the gr
 
 **NOTE 2**: Because of the extra characters, be sure to leave enough room for a 'newline' (also notated as '\n') and an end of string character ('\0') if your language uses it (as C and C++ do). This means you need eight characters of room instead of six.
 
-##### SAMPLE INPUT (file ride.in)
+#### SAMPLE INPUT (file ride.in)
 
 COMETQ<br>
 HVNGAT
 
-##### OUTPUT FORMAT
+#### OUTPUT FORMAT
 
 A single line containing either the word "GO" or the word "STAY".
 
-##### SAMPLE OUTPUT (file ride.out)
+#### SAMPLE OUTPUT (file ride.out)
 
 GO
 
-##### OUTPUT EXPLANATION
+#### OUTPUT EXPLANATION
 
 Converting the letters to numbers:
 
