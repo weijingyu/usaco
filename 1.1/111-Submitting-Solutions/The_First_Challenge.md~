@@ -6,112 +6,17 @@ Below is a simple solution in the 'C' programming language. Note the use of 'exi
 
 [test.c](/1.1/111-test/test.c)
 
-```C
-/*
-ID: wadewei1
-LANG: C
-TASK: test
-*/
-
-#include <stdlib.h>
-#include <stdio.h>
-
-int main() {
-
-	FILE *fin = fopen("test.in", "r");
-	FILE *fout = fopen("test.out", "w");
-
-	int a, b;
-
-	fscanf(fin, "%d %d", &a, &b);
-	fprintf(fout, "%d\n", a + b);
-
-	exit(0);
-}
-```
-
 Below is a simple solution in the C++ programming language. Note the use of 'return (0);', which is usually required to exit properly.
 
 [test.cpp](/1.1/111-test/test.cpp)
-
-```C++
-/*
-ID: wadewei1
-LANG: C++
-TASK: test
-*/
-
-#include <iostream>
-#include <fstream>
-#include <string>
-
-using namespace std;
-
-int main() {
-
-	ofstream fout("test.out");
-	ifstream fin("test.in");
-
-	int a, b;
-
-	fin >> a >> b;
-	fout << a + b << endl;
-
-	return 0;
-}
-```
 
 Below is a simple solution in the PASCAL programming language:
 
 [test.pas](1.1/111-test/test.pas)
 
-```Pascal
-{
-ID: your_id_here
-PROG: test
-LANG: PASCAL
-}
-Program Test;
-Var fin, fout: text;
-    a, b: word;
-Begin
-	Assign(fin, 'test.in'); Reset(fin);
-	Assign(fout, 'test.out'); Rewrite(fout);
-	Readln(fin, a, b);
-	Writeln(fout, a+b);
-	Close(fout);
-End.
-```
-
 And here is the same program, this time in JAVA. Note that the program presumes the file opens will succeed, which they will:
 
 [test.java](1.1/111-test/test.java)
-
-```Java
-/*
-ID: wadewei1
-LANG: JAVA
-TASK: test
-*/
-
-import java.io.*;
-import java.util.*;
-
-class test {
-	public static void main (String [] args) throws IOException {
-		// Use BufferedReader rather than RandowmAccessFile; it's much faster
-		BufferedReader f = new BufferedReader(new FileReader("test.in"));	// input file name goes above
-		PrintWriter out = new PrintWrite(new BufferedWriter("test.out")));
-		// Use StringTokenizer vs. readLine/split -- lots faster
-		StringTokenizer st = new StringTokenizer(f.readline());	// Get line, break into tokens
-		int i1 = Integer.parseInt(st.nextToken());	//first integer
-		int i2 = Integer.parseInt(st.nextToken());	// second integer
-		out.println(i1 + i2);
-		out.close();
-		System.exit(0);
-	}
-}
-```
 
 *** Important: BufferedReader and StringTokenizer are far more efficient than many other schemes for reading input. They can make a huge difference in the efficiency of your program! Use them! ***
 
