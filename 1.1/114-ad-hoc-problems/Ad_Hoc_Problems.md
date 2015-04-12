@@ -1,3 +1,5 @@
+## ![Cow Boy](/0.0/images/cowhead2.gif) Ad Hoc Problems
+
 `Ad hoc' problems are those whose algorithms do not fall into standard categories with well-studied solutions, Eac ad hoc problem is different; no specific or general techniques exist to solve them.
 
 Of course, this makes the problems the `fun' ones, since each one presents a new challenge. The solutions might require a novel data structure or an unusual set of loops or conditionals. Sometimes they require special combinations that rare or at least rarely encountered.
