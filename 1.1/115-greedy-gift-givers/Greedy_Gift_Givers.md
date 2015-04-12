@@ -25,30 +25,30 @@ The grader machine is a Linux machine that uses standard Unix conventions: end o
 
 #### SAMPLE INPUT (file gift1.in)
 
-5 
-dave 
-laura 
-owen 
-vick 
-amr 
-dave 
-200 3 
-laura 
-owen 
-vick 
-owen 
-500 1 
-dave 
-amr 
-150 2 
-vick 
-owen 
-laura 
-0 2 
-amr 
-vick 
-vick 
-0 0 
+5<br>
+dave<br>
+laura<br>
+owen<br>
+vick<br>
+amr<br>
+dave<br>
+200 3<br>
+laura<br>
+owen<br>
+vick<br>
+owen<br>
+500 1<br>
+dave<br>
+amr<br>
+150 2<br>
+vick<br>
+owen<br>
+laura<br>
+0 2<br>
+amr<br>
+vick<br>
+vick<br>
+0 0<br>
 
 #### OUTPUT FORMAT
 
@@ -58,8 +58,8 @@ All gifts are integers. Each person gives the same integer amount of money to ea
 
 #### SAMPLE OUTPUT (file gift1.out)
 
-dave 302 
-laura 66 
-owen -359 
-vick 141 
-amr -150
+dave 302<br>
+laura 66<br>
+owen -359<br>
+vick 141<br>
+amr -15<br>
