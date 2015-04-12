@@ -35,7 +35,7 @@ Line N+2..2*N+1:|N lines of N characters (each either `@' or `-'); this is the s
 
 #### OUTPUT FORMAT
 
-A single line containing the the number from 1 through 7 (described above) that categorizes the transformation required to change from the `before' representation to the `after' representation.
+A single line containing the the number from 1 through 7 (described above) that categorizes the transformation required to change from the 'before' representation to the 'after' representation.
 
 #### SAMPLE OUTPUT (file transform.out)
 
