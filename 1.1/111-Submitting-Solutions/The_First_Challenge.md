@@ -4,7 +4,7 @@ The simplest programming challenge is named 'test' and requires you to read a pa
 
 Below is a simple solution in the 'C' programming language. Note the use of 'exit (0);', which is usually required to exit properly.
 
-[test.c](/1.1/111-test/test.c)
+[test.c](/1.1/111-Submitting-Solutions/test.c)
 
 ```C
 /*
@@ -32,7 +32,7 @@ int main() {
 
 Below is a simple solution in the C++ programming language. Note the use of 'return (0);', which is usually required to exit properly.
 
-[test.cpp](/1.1/111-test/test.cpp)
+[test.cpp](/1.1/111-Submitting-Solutions/test.cpp)
 
 ```C++
 /*
@@ -63,7 +63,7 @@ int main() {
 
 Below is a simple solution in the PASCAL programming language:
 
-[test.pas](1.1/111-test/test.pas)
+[test.pas](1.1/111-Submitting-Solutions/test.pas)
 
 ```Pascal
 {
@@ -85,7 +85,7 @@ End.
 
 And here is the same program, this time in JAVA. Note that the program presumes the file opens will succeed, which they will:
 
-[test.java](1.1/111-test/test.java)
+[test.java](1.1/111-Submitting-Solutions/test.java)
 
 ```Java
 /*
