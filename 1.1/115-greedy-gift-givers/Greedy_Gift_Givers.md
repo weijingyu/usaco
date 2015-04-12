@@ -16,38 +16,39 @@ The grader machine is a Linux machine that uses standard Unix conventions: end o
 
 #### INPUT FORMAT
 
-**Line 1**:	The single integer, NP
-**Lines 2..NP+1**: Each line contains the name of a group member
-**Lines NP+2..end**: NP groups of lines organized like this:
-The first line in the group tells the person's name who will be giving gifts. 
-The second line in the group contains two numbers: The initial amount of money (in the range 0..2000) to be divided up into gifts by the giver and then the number of people to whom the giver will give gifts, NGi (0 ≤ NGi ≤ NP-1). 
-If NGi is nonzero, each of the next NGi lines lists the the name of a recipient of a gift.
++ **Line 1**:	The single integer, NP 
++ **Lines 2..NP+1**: Each line contains the name of a group member 
++ **Lines NP+2..end**: NP groups of lines organized like this:
+	- The first line in the group tells the person's name who will be giving gifts. 
+	- The second line in the group contains two numbers: The initial amount of money (in the range 0..2000) to be divided up into gifts by the giver and then the number of people to whom the giver will give gifts, NGi (0 ≤ NGi ≤ NP-1). 
+	- If NGi is nonzero, each of the next NGi lines lists the the name of a recipient of a gift.
+
 #### SAMPLE INPUT (file gift1.in)
 
-5
-dave
-laura
-owen
-vick
-amr
-dave
-200 3
-laura
-owen
-vick
-owen
-500 1
-dave
-amr
-150 2
-vick
-owen
-laura
-0 2
-amr
-vick
-vick
-0 0
+5 
+dave 
+laura 
+owen 
+vick 
+amr 
+dave 
+200 3 
+laura 
+owen 
+vick 
+owen 
+500 1 
+dave 
+amr 
+150 2 
+vick 
+owen 
+laura 
+0 2 
+amr 
+vick 
+vick 
+0 0 
 
 #### OUTPUT FORMAT
 
@@ -57,8 +58,8 @@ All gifts are integers. Each person gives the same integer amount of money to ea
 
 #### SAMPLE OUTPUT (file gift1.out)
 
-dave 302
-laura 66
-owen -359
-vick 141
+dave 302 
+laura 66 
+owen -359 
+vick 141 
 amr -150
