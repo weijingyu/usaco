@@ -54,6 +54,7 @@ A single line with a single integer that is the minimum cost that Merry Milk Mak
 #### OUTPUT EXPLANATION
 
 Here's how the MMM company spent only 630 cents to purchase 100 units of milk:
+
 Price<br>per unit|Units<br>available|Units<br>bought|Price *<br># units|Total cost|Notes
 :---------------:|:----------------:|:-------------:|:----------------:|:--------:|:---
 5|20|20|5*20|100|
