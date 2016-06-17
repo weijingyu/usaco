@@ -14,8 +14,9 @@ Given Farmer John's combination and the combination, please determine the number
 
 #### INPUT FORMAT
 
-Line 1:|The integer N.|
-Line 2:|Three space-separated integers, specifying Farmer John's combination.|
+-----|-----
+Line 1:|The integer N.
+Line 2:|Three space-separated integers, specifying Farmer John's combination.
 Line 3:|Three space-separated integers, specifying the master combination (possibly the same as Farmer John's combination).
 
 
@@ -41,6 +42,7 @@ Line 1: The number of distinct dial settings that will open the lock.
 
 Here's a list:
 
+```
 1,1,1  2,2,4  3,4,2  4,4,5  5,4,8  6,5,6  7,5,9  3,50,2  50,1,4 
 1,1,2  2,2,5  3,4,3  4,4,6  5,4,9  6,5,7  7,6,5  3,50,3  50,1,5 
 1,1,3  2,3,1  3,4,4  4,4,7  5,5,5  6,5,8  7,6,6  3,50,4  50,2,1 
@@ -69,3 +71,4 @@ Here's a list:
 2,2,1  3,3,4  3,8,7  5,4,5  6,4,8  7,5,6  2,50,5 50,1,2  50,50,4
 2,2,2  3,3,5  3,8,8  5,4,6  6,4,9  7,5,7  3,50,1 50,1,3  50,50,5
 2,2,3  3,4,1  3,8,9  5,4,7  6,5,5  7,5,8
+```
