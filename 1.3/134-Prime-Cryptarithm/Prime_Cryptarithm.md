@@ -1,7 +1,8 @@
- ## Prime Cryptarithm 
-  
- The followingcryptarithm is a multipalication problem that can be solved by substituting digits from a specified set of N digits into the positions mark    ed with *. If the set of prime digits {2, 3, 5, 7} is selected, the cryptari    thm is called a PRIME CRYPTARITHM. 
-  
+## Prime Cryptarithm
+
+The followingcryptarithm is a multipalication problem that can be solved by substituting digits from a specified set of N digits into the positions marked with *. If the set of prime digits {2, 3, 5, 7} is selected, the cryptarithm is called a PRIME CRYPTARITHM. 
+
+``` 
       * * * 
   x     * * 
   --------- 
@@ -9,6 +10,7 @@
     * * * *       <-- partial product 2 
   --------- 
     * * * * 
+```
   
 Digits can appear only in places marked by `*'. Of course, leading zeroes are not allowed. 
   
@@ -37,8 +39,8 @@ Write a program that will find all solutions to the cryptarithm above for any su
 
 #### INPUT FORMAT
 
-|Line 1:|N, the number of digits that will be used|
-|Line 2:|N space separated non-zero digits with which to solve the cryptarithm|
+Line 1:|N, the number of digits that will be used
+Line 2:|N space separated non-zero digits with which to solve the cryptarithm
 
 
 #### SAMPLE INPUT (file crypt1.in) 
