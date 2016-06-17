@@ -14,7 +14,7 @@ The followingcryptarithm is a multipalication problem that can be solved by subs
   
 Digits can appear only in places marked by `*'. Of course, leading zeroes are not allowed. 
   
-\*The partial products must be three digits long\*, even though the general case (see below) might have four digit partial products.
+**The partial products must be three digits long**, even though the general case (see below) might have four digit partial products.
   
 \*Note about cryptarithm's Multiplication\*
 
